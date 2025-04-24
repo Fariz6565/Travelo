@@ -1,0 +1,729 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.search{
+    background-color: #dc3545;
+    font-size: 5px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 40px;
+}
+
+.xett{
+    background-color: rgb(90, 86, 86);
+    height: 40px;
+    width: 2px;
+}
+
+.logo-img{
+    display: flex;
+    gap: 15px;
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+
+.phone{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.phonenumber{
+    visibility: hidden;
+}
+.phone:hover .phonenumber{
+    visibility: visible;
+    transition: 0.8s;
+    scale: 1.1;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.right-side{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.indonesia{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/banner.png.webp);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.explore{
+    width: 160px;
+    height: 60px;
+    background-color: #1EC6B6;
+    color: white;
+    border: 0;
+}
+
+.explore:hover{
+    background-color: #dc3545;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.h1{
+    font-family: nothing-you-could-do, cursive;
+    font-size: 120px;
+    font-weight: 1;
+    color: white;
+}
+
+.indonesia-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 150px;
+}
+
+.first-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.black{
+    width: 100%;
+    height: 20vh;
+    background-color: #040E27;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.axtaris{
+    width: 110px;
+    height: 40px;
+    background-color: #dc3545;
+    color: white;
+
+}
+
+.axtaris:hover{
+    background-color: #1EC6B6;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.two{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+}
+
+.two-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.places-one{
+    display: flex;
+    gap: 20px;
+}
+
+.place-two{
+    display: flex;
+    gap: 20px;
+}
+
+.italy{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/destination/1.png.webp);
+    height: 30vh;
+    width: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.italy p,
+.italy .places07 {
+    transition: 0.7s;
+}
+
+.italy:hover p {
+    color: #dc3545;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.italy:hover .places07 {
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+}
+
+.brazil{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/destination/2.png);
+    height: 30vh;
+    width: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.place03{
+    color: white;
+    background-color: #1EC6B6;
+}
+
+.brazil:hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+.brazil:hover p {
+    color: #dc3545;
+
+
+}
+
+
+.brazil:hover .place03{
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.america{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/destination/3.png);
+    height: 30vh;
+    width: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.place10{
+    color: white;
+    background-color: #1EC6B6;
+}
+
+.america:hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+.america:hover p {
+    color: #dc3545;
+}
+
+.america:hover .place10{
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.nepal{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/destination/4.png);
+    height: 30vh;
+    width: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+
+}
+
+.nepal:hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+.nepal:hover p {
+    color: #dc3545;
+}
+
+.nepal:hover .place10{
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.maldives{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/destination/5.png);
+    height: 30vh;
+    width: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.maldives:hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+.maldives:hover p {
+    color: #dc3545;
+}
+
+.maldives:hover .place10{
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.inndonesia{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/destination/6.png);
+    height: 30vh;
+    width: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.inndonesia:hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+.inndonesia:hover p {
+    color: #dc3545;
+}
+
+.inndonesia:hover .place10{
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.subscribe{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/newsletter.png.webp);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    width: 100%;
+    height: 30vh;
+    padding: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.enter{
+    width: 350px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    color: #000000;
+}
+
+.subscribe-button{
+    width: 150px;
+    height: 50px;
+    background-color: #dc3545;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+
+.subscribe-button:hover{
+    background-color: #1EC6B6;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+.three{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.three-text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.colifornia{
+    background-image: url(	https://preview.colorlib.com/theme/travelo/img/place/1.png);
+    height: 30vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+
+}
+
+.qiymet{
+    height: 50px;
+    width: 80px;
+    background-color: #1EC6B6;
+    border-radius: 8px;
+    border: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.historys{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history{
+    display: flex;
+    gap: 5px;
+}
+
+.colifornia-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.place-1:hover{
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+.place-1:hover h2 {
+    color: #dc3545;
+}
+
+.place-1:hover .qiymet {
+    background-color: #dc3545;
+
+}
+
+.korola{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/2.png);
+    height: 30vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+}
+
+.london{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/3.png);
+    height: 30vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+}
+
+.miami{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/4.png);
+    height: 30vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+}
+
+.california{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/5.png);
+    height: 30vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+}
+
+.saint{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/place/6.png);
+    height: 30vh;
+    width: 50vh;
+    background-repeat: no-repeat;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+
+}
+
+.four-video{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/video.png.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.enjoy{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.four-texts{
+    margin: 0;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: whitesmoke;
+
+}
+
+.four-text{
+    text-align: center;
+
+}
+
+
+.tom{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: aliceblue;
+}
+.recent{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+.recent-image{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.image-recent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.image-recent:hover h2{
+    transition: 0.5s;
+    color: #dc3545;
+}
+
+footer{
+    width: 100%;
+    height: 85vh;
+    background-color: #212529;
+    margin-top: 100px;
+
+}
+.logofoot{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.foot-logo{
+    display: flex;
+    gap: 15px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pricing:hover {
+    color: #dc3545;
+    transition: 0.5s;
+}
+
+.country{
+    display: flex;
+    gap: 20px;
+}
+
+.countryy{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.popular{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-top{
+    display: flex;
+    gap: 50px;
+}
+
+.insta{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.insta-img{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.img-insta{
+    display: flex;
+    gap: 15px;
+}
+
+.footer-top{
+    display: flex;
+    gap: 150px;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+span{
+    color: #dc3545;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    align-items: center;
+
+}
+
+.footer-bottom{
+    color: rgb(146, 135, 135);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.xeett{
+    background-color: rgb(90, 86, 86);
+    height: 2px;
+    width: 1200px;
+}

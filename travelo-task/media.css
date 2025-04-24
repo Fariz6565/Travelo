@@ -1,0 +1,107 @@
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .logo{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right-side {
+        flex-direction: column;
+    }
+
+    .h1 {
+        font-size: 60px;
+    }
+    .phonenumber{
+        visibility:visible  ;
+    }
+
+    .black{
+        height: fit-content;
+    }
+
+    .indonesia{
+        height: fit-content;
+    }
+
+    .california{
+        width: 100%;
+    }
+
+    .colifornia{
+        width: 100%;
+    }
+    .korola{
+        width: 100%;
+    }
+
+    .london{
+        width: 100%;
+    }
+    .miami{
+        width: 100%;
+    }
+    .saint{
+        width: 100%;
+    }
+
+    .subscribe{
+        flex-direction: column;
+        height: fit-content;
+        background-size: contain;
+    }
+    .black {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+     
+    .place-1{
+        height: 100vh;
+    }
+
+    .four-video{
+        height: fit-content;
+    }
+
+    .places-one, .place-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .four-texts {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .recent-image {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        height: fit-content;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        height: fit-content;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    .xeett {
+        width: 90%;
+    }
+}
